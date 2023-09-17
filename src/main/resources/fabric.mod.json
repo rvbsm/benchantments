@@ -1,0 +1,28 @@
+{
+	"schemaVersion": 1,
+	"id": "benchantments",
+	"version": "${version}",
+	"name": "BEnchantments",
+	"description": "Enhance vanilla enchantments!",
+	"authors": [
+		"rvbsm"
+	],
+	"contact": {
+		"repo": "https://github.com/rvbsm/benchantments"
+	},
+	"license": "MIT",
+	"icon": "assets/benchantments/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"dev.rvbsm.benchantments.BEnchantmentsMod"
+		]
+	},
+	"mixins": [
+		"benchantments.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.0",
+		"minecraft": ">=1.20"
+	}
+}
